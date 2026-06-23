@@ -16,22 +16,22 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
 
 
 // Set Prices
-function Batteries(exp) {
-  var Batteries = [];
-  Batteries[2]=200;
-  Batteries[4]=250;
-  Batteries[8]=320;
-  Batteries[16]=400;
-  Batteries[32]=500;
-  Batteries[64]=650;
-  Batteries[128]=820;
-  Batteries[256]=1000;
-  Batteries[512]=1200;
-  Batteries[1024]=1500;
-  Batteries[2048]=2000;
-  Batteries[4096]=3000;
-  Batteries[8192]=5000;
-  return Batteries[exp];
+function work(exp) {
+  var work = [];
+  work[2]=200;
+  work[4]=250;
+  work[8]=320;
+  work[16]=400;
+  work[32]=500;
+  work[64]=650;
+  work[128]=820;
+  work[256]=1000;
+  work[512]=1200;
+  work[1024]=1500;
+  work[2048]=2000;
+  work[4096]=3000;
+  work[8192]=5000;
+  return work[exp];
 }
 
 // Restart the game
