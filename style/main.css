@@ -117,12 +117,12 @@ h1.title {
 .score-container:after {
   content: "Friend"; }
 .score-points:after {
-  content: "Batteries"; }
+  content: "work"; }
 
 .best-container:after {
   content: "Friend Max"; }
 .best-points:after {
-	content: "Batteries Max"; }
+	content: "work Max"; }
 
 p {
   margin-top: 0;
